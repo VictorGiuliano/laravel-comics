@@ -15,7 +15,7 @@
                 <li><a href="#">FANS</a></li>
                 <li><a href="#">NEWS</a></li>
                 <li><a href="#">SHOP</a></li>
-                <li><input type="text" placeholder="Search.."></li>
+                <li><input type="text" placeholder="Search..."></li>
             </ul>
         </div>
     </nav>
