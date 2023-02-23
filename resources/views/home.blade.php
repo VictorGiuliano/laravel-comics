@@ -13,34 +13,12 @@
                 <h1>CURRENT SERIES</h1>
             </div>
             <div class="card-container">
-                <div class="comics-card">
-                    <img src="" alt="comic.series">
-                    <h4>AAA</h4>
-                </div>
-                <div class="comics-card">
-                    <img src="" alt="comic.series">
-                    <h4>AAA</h4>
-                </div>
-                <div class="comics-card">
-                    <img src="" alt="comic.series">
-                    <h4>AAA</h4>
-                </div>
-                <div class="comics-card">
-                    <img src="" alt="comic.series">
-                    <h4>AAA</h4>
-                </div>
-                <div class="comics-card">
-                    <img src="" alt="comic.series">
-                    <h4>AAA</h4>
-                </div>
-                <div class="comics-card">
-                    <img src="" alt="comic.series">
-                    <h4>AAA</h4>
-                </div>
-                <div class="comics-card">
-                    <img src="" alt="comic.series">
-                    <h4>AAA</h4>
-                </div>
+                @foreach ($comics as $comic)
+                  <div class="comics-card">
+                    <img src='{{$comic['thumb']}}' alt="comic.series">
+                    <h4>{{$comic['title']}}</h4>
+                </div>  
+                @endforeach
             </div>
             <button class="btn btn-more">
                 <h1>LOAD MORE</h1>

@@ -51,24 +51,9 @@
     </div>
     <div class="container">
     <p>All Sites Content TM  and &copy 2020 DC Entertainment,unless otherwise <span>noted here</span>.</p>
-        <p>All rights reserved.
-        <span>Cookies Setting</span></p>
+        <p class="pb-2">All rights reserved.<span>Cookies Setting</span></p>
     </div>
-    <section class="footer-social">
-        <div class="f-footer container">
-            <div class="socials">
-                <button>SIGN-UP NOW!</button>
-            </div>
-            <div class="socials">
-                <a>FOLLOW US</a>
-                <img src="{{asset('images/footer-facebook.png')}}">
-                <img src="{{asset('images/footer-twitter.png')}}">
-                <img src="{{asset('images/footer-youtube.png')}}">
-                <img src="{{asset('images/footer-pinterest.png')}}">
-                <img src="{{asset('images/footer-periscope.png')}}">
-            </div>
-        </diV>
-    </section>
+    
 
 
 </footer>

@@ -15,5 +15,20 @@
         @yield('content')
     </main>
     @include('includes.footer')
+    <section class="footer-social">
+        <div class="f-footer container">
+            <div class="socials">
+                <button>SIGN-UP NOW!</button>
+            </div>
+            <div class="socials">
+                <a>FOLLOW US</a>
+                <img src="{{asset('images/footer-facebook.png')}}">
+                <img src="{{asset('images/footer-twitter.png')}}">
+                <img src="{{asset('images/footer-youtube.png')}}">
+                <img src="{{asset('images/footer-pinterest.png')}}">
+                <img src="{{asset('images/footer-periscope.png')}}">
+            </div>
+        </diV>
+    </section>
 </body>
 </html>
