@@ -1,0 +1,73 @@
+main {
+    background-color: black;
+}
+
+.Jumbotron {
+    min-height: 270px;
+    background-image: url(../../public/images/jumbotron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bkg-b {
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.bonus {
+    background-color: $blu;
+    min-height: 120px;
+}
+
+h4 {
+    color: $white;
+    font-size: 10px;
+    padding: 15px 0;
+}
+
+
+.label,
+.btn {
+    width: 10%;
+    background: $blu;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+
+    h1 {
+        color: $white;
+        font-size: 40%;
+    }
+}
+
+.stick {
+    position: absolute;
+    left: 0;
+    top: -15px;
+}
+
+.btn-more {
+    cursor: pointer;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+
+    .comics-card {
+        flex-basis: calc(100% / 6);
+        padding: 15px;
+
+        img {
+            display: block;
+
+            max-height: 100%;
+            max-width: 100%;
+        }
+    }
+}

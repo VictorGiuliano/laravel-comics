@@ -8,7 +8,12 @@ header {
 
         .navbar-logo {
             text-align: left;
-            padding: 20px;
+            padding: 10px 10px 0 10px;
+
+            img {
+                max-width: 70%;
+                height: auto;
+            }
         }
 
         .navbar-menu {
@@ -30,8 +35,8 @@ header {
 
                         &:hover,
                         &:active {
-                            color: dodgerblue;
-                            border-bottom: dodgerblue solid 2px;
+                            color: $blu;
+                            border-bottom: $blu solid 2px;
                         }
                     }
 
