@@ -20,8 +20,8 @@
             <div class="socials">
                 <button>SIGN-UP NOW!</button>
             </div>
-            <div class="socials">
-                <a>FOLLOW US</a>
+            <div class="socials s-links">
+                <a class="text-social">FOLLOW US</a>
                 <img src="{{asset('images/footer-facebook.png')}}">
                 <img src="{{asset('images/footer-twitter.png')}}">
                 <img src="{{asset('images/footer-youtube.png')}}">
