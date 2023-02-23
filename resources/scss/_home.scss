@@ -17,9 +17,10 @@ main {
     position: relative;
 }
 
-.bonus {
+.articles {
     background-color: $blu;
-    min-height: 120px;
+    height: 120px;
+    display: flex;
 }
 
 h4 {
@@ -31,7 +32,7 @@ h4 {
 
 .label,
 .btn {
-    width: 10%;
+    width: 11%;
     background: $blu;
     display: flex;
     align-items: center;
@@ -44,15 +45,20 @@ h4 {
     }
 }
 
+.btn-more {
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 11%;
+    height: 20px;
+}
+
 .stick {
     position: absolute;
     left: 0;
     top: -15px;
 }
 
-.btn-more {
-    cursor: pointer;
-}
+
 
 .card-container {
     display: flex;
@@ -66,8 +72,29 @@ h4 {
         img {
             display: block;
 
-            max-height: 100%;
+            height: auto;
             max-width: 100%;
         }
+    }
+}
+
+.bkg-bl {
+    display: flex;
+    align-items: center;
+
+    .icons {
+        display: flex;
+        justify-content: center;
+
+        img {
+            height: auto;
+            max-width: 50%;
+        }
+    }
+
+
+    h3 {
+        font-size: 10px;
+        color: white;
     }
 }
